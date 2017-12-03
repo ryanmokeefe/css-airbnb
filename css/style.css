@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  margin: 20px;
 }
 h1 {
   color: salmon;
@@ -80,3 +81,4 @@ input {
   border: none;
   outline: none;
 } */
+
