@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  margin: 20px;
+  margin: 60px;
   font-family: arial, sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
 }
 .column {
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   position: relative;
   border-radius: 20px;
           height: 100px;
@@ -25,12 +25,12 @@ body {
   clear: both;                                              
 }
 .row {
-  border: 2px solid rebeccapurple;
+  /* border: 2px solid rebeccapurple; */
   overflow: auto;
 }
 .module {
   margin: 5px 10px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   height: 100%;
 }
 .column1-4 {
@@ -43,7 +43,11 @@ h1 {
   color: #FF5A5F;
 }
 
-
+h2 {
+  color: #444;
+  font-size: 28px;
+  text-align: left;
+}
 
 /* NAV */
 .nav-bar {
@@ -81,7 +85,7 @@ h1 {
 /* HEADER */
 
 .header-row {
-  height: 275px;
+  height: 225px;
   
 }
 .header-column {
@@ -90,9 +94,13 @@ h1 {
   text-align: left;
   margin: 0 0 0 20px;
 }
+.header-module {
+  height: 160px;
+}
 .header-grey {
-  color: #444;
+  color: #333;
   font-weight: 100;
+  font-size: 40px;
 }
 .header-module h1 {
   font-size: 45px;
@@ -146,7 +154,111 @@ input {
   font-weight: 200;
   letter-spacing: 1.5px;
 }
-.break {
-  height: 175px;
-}
+
 /*  */
+
+.break {
+  height: 100px;
+}
+
+/* ROW 6 - CATAGORIES */
+
+.row6 {
+  height: 120px;
+}
+.row6 .module {
+  border: 1px solid #aaa;
+  overflow: hidden;
+  height: 70px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 70px;
+  color: #444;
+  font-size: 15px;
+  font-weight: 900;
+}
+.row6 img {
+  overflow: hidden;
+  height: 70px;
+  width: auto;
+  float: left;
+  position: relative;
+  left: -20px;
+}
+
+/* ROW5/ROW7 - EXPLORE/EXPERIENCES/HOMES HEADLINES */
+
+.row7, .row5, .row10 {
+  height: 100px;
+}
+.row7 .module, .row5-module, .row10 .module {
+  text-align: left;
+  height: 50px;
+  line-height: 50px;
+
+}
+
+/* ROW 8 - EXPERIENCES */
+
+.row8 {
+  height: 340px;
+}
+.row8 .module {
+  overflow: hidden;
+  height: 320px;
+}
+.row8 img {
+  overflow: hidden;
+  height: 200px;
+  width: auto;
+  margin: 0 0 8px 0;
+  /* border-radius: 5px; */
+}
+.tour-img {
+  width: 400px;
+  height: auto;
+}
+.row8 h4, .row8 h3, .row8 p {
+  margin: 0 auto;
+  padding: 0;
+}
+.row8 h4 {
+  font-size: 12px;
+  color: darkred;
+}
+.row8 h3, .row11 h3 {
+  font-size: 17px;
+  color: #333;
+}
+.row8 p, .row11 p {
+  color: #666;
+  font-size: 15px;
+}
+
+/* ROW11 - HOMES FOR RENT */
+
+.row11 {
+  height: 500px;
+}
+.row11 .module {
+  overflow: auto;
+  height: 400px;
+}
+.row11 img {
+  overflow: auto;
+  width: 100%;
+  height: auto;
+}
+
+.row11 h4, .row11 h3, .row11 p {
+  margin: 8px auto;
+  padding: 0;
+}
+.row11 h4 {
+  font-size: 12px;
+  color: rgb(6, 6, 85);
+}
+.hobbit {
+  position: relative;
+  top: -20px;
+}
