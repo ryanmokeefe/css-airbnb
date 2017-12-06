@@ -1,0 +1,40 @@
+body {
+    margin: 50px 100px;
+}
+.row, .column {
+    box-sizing: border-box;
+}
+.row:before, .row:after {
+    content: "";
+    display: table;
+}
+.row:after {
+clear: both;
+}
+.row {
+    border: 2px solid tomato;
+    overflow: auto;
+            min-height: 100px;
+
+}
+.column {
+    border: 2px solid seagreen;
+    float: left;
+    width: 33.33%;
+    overflow: auto;
+}
+.module {
+    background-color: grey;
+}
+.column-top {
+
+}
+img {
+    /* width: 100%;
+    height: auto; */
+
+    overflow: hidden;
+    height: 200px;
+    width: auto;
+    margin: 0 0 8px 0;
+}
