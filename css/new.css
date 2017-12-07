@@ -83,3 +83,14 @@ h1 {
 p {
     font-size: 15px;
 }
+h2 {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    margin: -20px auto;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
